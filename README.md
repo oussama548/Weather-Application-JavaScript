@@ -1,2 +1,0 @@
-# WeatherApp
-weatherApp in JavaScript
