@@ -40,7 +40,7 @@ let setDate=()=>{
 //2- transforming the entered location into coordinates
 let getCoordinates=async (location)=>{
     const url="https://api.opencagedata.com/geocode/v1/json";
-    
+    const key="c0a748254ea74bd0a496a107f617574f";
     try{
         let response=await fetch(`${url}?q=${location}&key=${key}`);
         if(!response.ok){
@@ -63,7 +63,7 @@ let getCoordinates=async (location)=>{
 
 let getWeather=async (location)=>{
     const url="https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline";
-    
+    const APIKey="YEMVVMHD6M6GTB6TTLBX6DGFB";
 
     try{
         let geometry=[];
